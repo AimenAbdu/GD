@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://AimenAbdu:n0eIoVsuES1H3TkO@cluster0.vuyqqyo.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://"add your username and password".vuyqqyo.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
